@@ -5,6 +5,5 @@ PythonCode个人笔记
    :maxdepth: 2
    
 
-   preface
    chapter1/index
    pytorch/index
