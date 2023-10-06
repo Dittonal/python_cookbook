@@ -1,5 +1,8 @@
+Pytorch
+===============
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   content
+   pytorch_content

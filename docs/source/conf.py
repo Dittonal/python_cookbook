@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Computer_Architecture_Notebook'
-copyright = '2022, kkqq'
-author = 'kkqq'
+project = 'PythonCode'
+copyright = '2023, PythonCode'
+author = 'PythonCode'
 
 release = '1.0'
 version = '1.0.0'

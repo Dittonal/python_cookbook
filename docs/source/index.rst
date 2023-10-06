@@ -7,3 +7,4 @@ PythonCode个人笔记
 
    preface
    chapter1/index
+   pytorch/index
