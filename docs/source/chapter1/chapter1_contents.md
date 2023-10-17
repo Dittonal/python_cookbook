@@ -1,3 +1,18 @@
+# sphinx简单使用
+- 本项目在python3.9下安装sphinx
+- 大部分代码来自[模板](https://github.com/readthedocs/tutorial-template)
+- clash 开启后github依旧无法提交代码的解决方案
+  - 开启允许本地局域网
+
+``` bash
+git config --global https.proxy http://127.0.0.1:7890
+git config --global http.proxy http://127.0.0.1:7890
+``` 
+- 本地调试命令
+
+``` bash
+sphinx-autobuild source build/html
+``` 
 # MarkDown示例用法
 
 ## 二级标题
@@ -5,10 +20,6 @@
 ### 三级标题
 
 #### 四级标题
-
-## 二级标题2
-
-# 一级标题2
 
 *斜体测试*
 
@@ -36,7 +47,9 @@ $expression$
 
 <!--注释测试-->
 
-[超链接测试](www.baidu.com)
+
+<h5> [超链接测试](www.baidu.com) </h5>
+
 
  | 作者 | 朝代 | 评分 |
  | :--: | :--: | :--: |
