@@ -7,3 +7,4 @@ PythonCode个人笔记
 
    chapter1/index
    pytorch/index
+   Django/index
