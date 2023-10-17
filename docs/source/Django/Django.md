@@ -1,11 +1,15 @@
 # Django
 
-## 初始化
+# 项目搜集
+- https://gitcode.net/explore/topics/django
+## 初始化项目
 
 
-| 作者 | 朝代 | 评分 |
-| :--: | :--: | :--: |
-| 李白 |  唐  | 100  |
+
+## 常用命令
+
+``` bash
 
 
+``` 
 
