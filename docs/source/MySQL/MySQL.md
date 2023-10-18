@@ -29,9 +29,9 @@ mysql-community-server_8.0.12-1ubuntu18.04_amd64.deb
 
 ## 问题解决
 
-1. 安装过程会输入两次密码，然后提示选择加密方式，请选择第二个5.7.X
+### 安装过程会输入两次密码，然后提示选择加密方式，请选择第二个5.7.X
 
-2.  缺少依赖：libaio1、libmecab2
+### 缺少依赖：libaio1、libmecab2
 > apt-get install libaio1 出现
 > 
 > Reading package lists... Done
@@ -48,7 +48,7 @@ E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or speci
 
 
 
-3. 进入mysql
+### 进入mysql
 ``` bash
 mysql -uroot -p
 ```
@@ -83,7 +83,7 @@ mysql -uroot -p
 ```
 
 
-4. 授权远程访问
+### 授权远程访问
 
 ``` bash
 sudo service mysql stop
@@ -115,5 +115,5 @@ ip addr
 
 ![](imgs/ip-addr.png)
 
-5. navicat
+### navicat
 ![](imgs/connected.png)
