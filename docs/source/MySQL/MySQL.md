@@ -115,4 +115,5 @@ ip addr
 
 ![](imgs/ip-addr.png)
 
-1. navicat
+5. navicat
+![](imgs/connected.png)
