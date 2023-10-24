@@ -38,3 +38,14 @@ envs_dirs:
   - C:\Users\x\.conda\envs
   - C:\Users\x\AppData\Local\conda\conda\envs
 ```
+## 图床
+- github设置
+  - [打开链接](https://github.com/settings/tokens/new)
+  - ![1](tuchuang_github.png)
+  - ![2](tuchuang_github2.png)
+
+- PicGo设置
+  - 下载后从任务栏隐藏的图标中找到
+  - 配置gihub图床如下，将个人token填入即可，仓库名为github用户名/项目名称
+  - 例如github的公开项目地址为https://github.com/myname/mypic，那么仓库名就是myname/mypic
+  - ![](./tuchuang_github3.png)
