@@ -10,7 +10,7 @@ pip config set global.cache-dir "E:/pipcache"
 - conda 缓存目录以及默认envs目录设置
 
 .condarc文件内容
-``` bash
+``` yaml
 channels:
   - defaults
   - conda-forge
