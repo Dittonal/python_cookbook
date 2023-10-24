@@ -9,3 +9,5 @@ PythonCode个人笔记
    pytorch/index
    Django/index
    MySQL/index
+   Windows/index
+   VsCode/index
