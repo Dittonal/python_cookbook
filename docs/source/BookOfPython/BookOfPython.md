@@ -15,4 +15,4 @@
 - 主要介绍Python的基础，有基础的可以不用看，包括列表，集合，元组，类的构建，重载内置的方法（```__add__,__le__```等等）
 ### 第二章
 - 介绍大O算法复杂度比较方法
-- 
+- [github资料](https://www.techinterviewhandbook.org/)
