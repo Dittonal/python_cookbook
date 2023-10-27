@@ -11,3 +11,4 @@ PythonCode个人笔记
    MySQL/index
    Windows/index
    VsCode/index
+   BookOfPython/index
