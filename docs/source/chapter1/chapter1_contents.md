@@ -48,13 +48,23 @@ $expression$
 
 <!--注释测试-->
 
+``` python
+<!--注释测试-->
+```
 
-<h5> [超链接测试](www.baidu.com) </h5>
+<h5> [超链接测试](https://www.baidu.com) </h5>
+
+<span style="color: #2ecc71">带颜色的文字</span>
+
+``` html
+<span style="color: #2ecc71">带颜色的文字</span>
+
+```
 
 
- | 作者 | 朝代 | 评分 |
- | :--: | :--: | :--: |
- | 李白 |  唐  | 100  |
+| 作者 | 朝代 | 评分 |
+| :--: | :--: | :--: |
+| 李白 |  唐  | 100  |
 
 
 ```shell
