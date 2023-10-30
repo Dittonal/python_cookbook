@@ -54,7 +54,11 @@ $expression$
 
 <h5> [超链接测试](https://www.baidu.com) </h5>
 
-<span style="color: #2ecc71">带颜色的文字</span>
+<span style="color: #2ecc71">带颜色的文字</span><hr/>
+<span style="color: #ed7d31">带颜色的文字</span><hr/>
+<span style="color: #ffd966">带颜色的文字</span><hr/>
+<span style="color: #00b0f0">带颜色的文字</span><hr/>
+<span style="color: #7030a0">带颜色的文字</span><hr/>
 
 ``` html
 <span style="color: #2ecc71">带颜色的文字</span>
