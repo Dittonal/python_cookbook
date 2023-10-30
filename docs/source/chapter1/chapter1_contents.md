@@ -60,9 +60,26 @@ $expression$
 <span style="color: #00b0f0">带颜色的文字</span><hr/>
 <span style="color: #7030a0">带颜色的文字</span><hr/>
 
-``` html
-<span style="color: #2ecc71">带颜色的文字</span>
+| 配色方案 | 配色方案1 |配色方案2 |
+| :--: | :--: |
+| 颜色1 | <span style="color: #fb8504"/>|#274554
+| 颜色2 | <span style="color: #ffb602"/>|#2b9d8d
+| 颜色3 | <span style="color: #042f4a"/>|#ebc36c
+| 颜色4 | <span style="color: #229fbb"/>|#f2a461
+| 颜色5 | <span style="color: #92c8e6"/>|#e96d53
 
+``` html
+<span style="color: #fb8504">配色方案1</span>
+<span style="color: #ffb602">配色方案1</span>
+<span style="color: #042f4a">配色方案1</span>
+<span style="color: #229fbb">配色方案1</span>
+<span style="color: #92c8e6">配色方案1</span>
+
+<span style="color: #274554">配色方案2</span>
+<span style="color: #2b9d8d">配色方案2</span>
+<span style="color: #ebc36c">配色方案2</span>
+<span style="color: #f2a461">配色方案2</span>
+<span style="color: #e96d53">配色方案2</span>
 ```
 
 
