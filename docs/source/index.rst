@@ -8,7 +8,7 @@ PythonCode个人笔记
    chapter1/index
    pytorch/index
    Django/index
-   MySQL/index
+   SQL/index
    Windows/index
    VsCode/index
    BookOfPython/index
