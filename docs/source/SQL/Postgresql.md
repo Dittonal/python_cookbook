@@ -20,15 +20,18 @@ Type "help" for help.
 
 ```
 
-## 一些常用命令
+### 一些常用命令
+
+* To list all databases in PostgreSQL we can use \l command.
+* 
+* To list all users in PostgreSQL we can use \du command.
+* 
+* To exit from psql we can use \q command.
+* 
+* To exit from postgres user type exit or CTRL+D
 ``` bash
-To list all databases in PostgreSQL we can use \l command.
-
-To list all users in PostgreSQL we can use \du command.
-
-To exit from psql we can use \q command.
-
-To exit from postgres user type exit or CTRL+D
+create database testdb owner test;
+create user test with password 'test';
 ```
 ## 
 
