@@ -33,8 +33,20 @@ Type "help" for help.
 create database testdb owner test;
 create user test with password 'test';
 ```
-## 
+## 启用远程连接
+- 修改 postgresql.conf，取消注释
+``` bash
+vim /etc/postgresql/10/main/postgresql.conf
+```
+![](./imgs/postgresql_conf.png)
+``` bash
+vim /etc/postgresql/10/main/pg_hba.conf
+```
+![](./imgs/pg_hba.png)
 
+- 连接结果
+
+![](./imgs/connected_pg.png)
 # QA
 ## 更改port
 - windows下查找postgresql.conf，修改port，重启服务
