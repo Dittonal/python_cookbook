@@ -50,3 +50,4 @@ vim /etc/postgresql/10/main/pg_hba.conf
 # QA
 ## 更改port
 - windows下查找postgresql.conf，修改port，重启服务
+- 打开pgadmin需要再菜单栏，Object-->properties-->修改Connection中的port
