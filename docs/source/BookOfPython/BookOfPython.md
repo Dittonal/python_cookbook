@@ -9,7 +9,7 @@
 
 ## 书籍链接
 - [Python数据结构与算法分析_第2版](http://gitcode.net/e-books/books_abt_python3/-/blob/master/Python数据结构与算法分析_第2版.pdf)
-
+- [Fluent Python 2e example code 流畅的 Python代码](https://github.com/fluentpython/example-code-2e)
 ## 笔记
 ### 第一章
 - 主要介绍Python的基础，有基础的可以不用看，包括列表，集合，元组，类的构建，重载内置的方法（```__add__,__le__```等等）
