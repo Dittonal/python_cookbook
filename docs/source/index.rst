@@ -12,3 +12,4 @@ PythonCode个人笔记
    Windows/index
    VsCode/index
    BookOfPython/index
+   Linux/index
