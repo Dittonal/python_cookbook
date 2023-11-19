@@ -6,7 +6,7 @@ PythonCode个人笔记
    
 
    chapter1/index
-   pytorch/index
+   Pytorch/index
    Django/index
    SQL/index
    Windows/index
