@@ -53,13 +53,25 @@ Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False),
   - Conv2d,需要注意kernel_size，stride，padding的组合关系对尺寸的是否改变，具体可以在[可视化网站](https://poloclub.github.io/cnn-explainer/)尝试组合，[7,2,3]的组合会把size减半
   - MaxPool2d，同样需要注意[3,2,1]的组合会减半size
 
+> 一般来说，池化层的参数组合为3,1,1不会改变大小
+
 ``` python
 x = torch.rand(1, 3, 256, 256)
 head=nn.Sequential(
-nn.Conv2d(in_channels=3,out_channels=places,kernel_size=7,stride=2,padding=3, bias=False),)
+nn.Conv2d(in_channels=3,out_channels=64,kernel_size=7,stride=2,padding=3, bias=False),)
 head(x).shape#torch.Size([1, 64, 128, 128])
 ```
+- 所以第一层Head代码实现如下
 
+``` python
+def Head(in_planes, places, stride=2):
+    return nn.Sequential(
+        nn.Conv2d(in_channels=in_planes,out_channels=places,kernel_size=7,stride=stride,padding=3, bias=False),
+        nn.BatchNorm2d(places),
+        nn.ReLU(inplace=True),
+        nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
+    )
+```
 ## 完整ResNet结构
 ``` bash
 ResNet(
