@@ -1,8 +1,22 @@
 # 常见的神经网络
 ![](./imgs/mixtransformer.png)
 # Torch
-- 梯度
-    - 梯度就是对函数导数，梯度值就是函数在某一点的导数值，这里的某一点可以理解为图片的像素值
+
+<h2 style="color: #ed7d31">Torch中的基本元素</h2>
+
+``` python
+import torch.nn as nn
+```
+
+### nn.Conv2d
+
+### nn.BatchNorm2d
+
+
+### nn.ReLU
+### nn.Sequential
+### grad
+- 梯度就是对函数导数，梯度值就是函数在某一点的导数值，这里的某一点可以理解为图片的像素值
 ``` python
 import torch
 import torch.nn as nn
