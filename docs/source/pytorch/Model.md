@@ -61,6 +61,7 @@ head=nn.Sequential(
 nn.Conv2d(in_channels=3,out_channels=64,kernel_size=7,stride=2,padding=3, bias=False),)
 head(x).shape#torch.Size([1, 64, 128, 128])
 ```
+
 - 所以第一层Head代码实现如下
 
 ``` python

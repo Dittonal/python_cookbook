@@ -119,7 +119,8 @@ ip addr
 ![](imgs/connected.png)
 
 ## 书籍资料
-- [SQL 必知必会(Sams Teach Yourself SQL in 10 Minutes_5th)](https://gitcode.net/e-books/books_abt_python3/-/blob/master/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%EF%BC%88%E7%AC%AC5%E7%89%88.pdf)
+
 - [在线阅读2](https://yun.weicheng.men/Book/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A.%E7%AC%AC4%E7%89%88.pdf)
 - [SQL进阶教程](https://yun.weicheng.men/Book/SQL%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B.pdf)
 ## TODO
+### 必知必会

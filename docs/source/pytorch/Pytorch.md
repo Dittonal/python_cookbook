@@ -10,6 +10,7 @@ import torch.nn as nn
 
 ### nn.Conv2d
 - 常用参数 kernel_size,stride,padding,dilation
+- 
 - 参数配置对通道数和尺寸的影响
 ### nn.BatchNorm2d
 

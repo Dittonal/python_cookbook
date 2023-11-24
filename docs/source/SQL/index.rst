@@ -8,3 +8,4 @@ MySQL
    MySQL
    Postgresql
    MySQL_question
+   SQLin10Minutes
