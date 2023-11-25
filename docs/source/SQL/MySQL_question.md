@@ -1,6 +1,6 @@
-# 1.6  本章练习
+## 1.6  本章练习
     特别说明：由于本书选择使用的是MySQL，正文内容也是以MySQL的语法作为主体，所以本书所有习题都是针对MySQL而言。
-## 一、单选题
+### 一、单选题
   1. 下面选项中，不属于DBMS的是（ ```A ）。
     ```A. SQL                                     B. MySQL
     C. SQL Server                               D. Oracle
@@ -17,7 +17,7 @@
   4. 下面数据库系统中，应用最广泛的是（  C ）。
     ```A. 分布型数据库                           B. 逻辑型数据库
     C. 关系型数据库                           D. 层次型数据库
-## 二、问答题
+### 二、问答题
   1. 常用的关系型DBMS和非关系型DBMS都有哪些？请分别列举最常见的几个。
     答案：
     （1）关系型DBMS：MySQL、SQL Server、Oracle、PostgreSQL。
@@ -26,8 +26,8 @@
 
 
 
-# 2.4  本章练习
-## 一、单选题
+## 2.4  本章练习
+### 一、单选题
   1. SQL语言又被称为（  C ）。
     ```A. 结构化定义语言                           B. 结构化控制语言
     C. 结构化查询语言                           D. 结构化操纵语言
@@ -66,19 +66,19 @@
   8. 下面选项中，可以用于注释多行内容的方式是（  B ）。
     ```A. -- 注释内容
     B. /*注释内容*/
-    C. # 注释内容
+    C. ## 注释内容
     D. /注释内容/
   9. 如果表的某一列的取值是不固定长度的字符串，最适合使用的类型是（  B ）。
     ```A. char                                B. varchar
     C. nchar                               D. int
-## 二、简答题
+### 二、简答题
   1. 请简单说一下MySQL的数据类型都有哪些？
     答案：
     数字（整数、浮点数、定点数）、字符串、日期时间、二进制。
 
 
-# 3.7  本章练习
-## 一、单选题
+## 3.7  本章练习
+### 一、单选题
   1. 如果把一张表看成是一个类，那么（  C ）就相当于表的属性。
     ```A. 行                                 B. 记录
     C. 列                                 D. 数值
@@ -148,11 +148,11 @@ from product;
     B. distinct只会作用于city这一列
     C. distinct同时作用于type和city这两列
     D. 语法有误，运行报错
-## 二、简答题
+### 二、简答题
   1. 请简单说一下你对NULL值的理解。
     答案：
     NULL是代表该字段没有值，而不是代表该字段的值为0或''（空字符串）。
-## 三、编程题
+### 三、编程题
   1. 下面有一个学生表student（如表3-11所示），请写出对应的SQL语句。
 表3-11  student
 id	name	sex	grade	birthday	major
@@ -191,8 +191,8 @@ select name as 姓名,
        grade as 成绩
 from student;
 
-# 本章练习
-## 一、单选题
+## 本章练习
+### 一、单选题
   1. 在MySQL中，having子句必须和（  C ）子句搭配一起使用。
     ```A. order by                            B. where
     C. group by                            D. limit
@@ -230,7 +230,7 @@ from student;
     B. select * from course group by sno having count(*) > 3;
     C. select * from course order by sno where count(*) > 3;
     D. select * from course order by sno having count(*) > 3;
-## 二、问答题
+### 二、问答题
   1. 请简单说一下where子句和having子句之间有什么区别？
     答案：
     （1）where子句是在分组之前对数据进行筛选，而having子句是对各个分组进行筛选。
@@ -241,8 +241,8 @@ from student;
 select→from→where→group by→having→order by→limit
 
 
-# 5.4  本章练习
-## 一、单选题
+## 5.4  本章练习
+### 一、单选题
   1. 如果一个查询的结果成为另一个查询的条件，这种查询方式被叫做（  D ）。
     ```A. 连接查询                           B. 父查询
     C. 自查询                             D. 子查询
@@ -270,7 +270,7 @@ from employee
 where name like '张';
     C中，MySQL、SQL Server、Oracle实现随机查询的语法是不一样的。
     D中，子查询可以返回单个值，也可以返回多个值。只是说标量子查询要求只能返回单个值而已。
-## 二、问答题
+### 二、问答题
   1. 如果子查询返回多个值（多行数据），我们可以使用哪些关键字来处理。
     答案：
     in、all、any、some。
@@ -278,7 +278,7 @@ where name like '张';
     答案：
     在普通子查询中，子查询的查询条件与父查询无关。因此，子查询会在父查询处理之前执行。
     在关联子查询中，子查询的查询条件依赖于父查询中的某个值。因此，每当从父查询中检索一个新行时，都会重新对子查询进行求值，以供父查询使用。
-## 三、编程题
+### 三、编程题
   1. 下面有一个student表（如表5-5所示），请写出对应的SQL语句。
 表5-5  student
 id	name	sex	grade	birthday	major
@@ -355,8 +355,8 @@ where sex = '男' and year(birthday) not in (
     select year(birthday) from student where sex = '女'
 );
 
-# 6.9  本章练习
-## 一、单选题
+## 6.9  本章练习
+### 一、单选题
   1. 如果想要获取字符串的长度，我们可以使用（  C ）函数来实现。
     ```A. count()                               B. len()
     C. length()                              D. sum()
@@ -385,8 +385,8 @@ where sex = '男' and year(birthday) not in (
     D中，floor()函数实现的是向下取整。
 
 
-# 7.5  本章练习
-## 一、单选题
+## 7.5  本章练习
+### 一、单选题
   1. 如果想要删除表中所有数据（要求不能删除表），并且要求效率最高，此时应该使用（  ```A ）。
     ```A. truncate table语句                      B. drop table语句
     C. delete语句                             D. alter语句
@@ -426,7 +426,7 @@ where sex = '男' and year(birthday) not in (
       alter table product                     alter table product
       set price += 10                          set price = price + 10
       where id = 5;                            where id = 5;
-## 二、问答题
+### 二、问答题
   1. 简单说明一下delete语句和truncate table语句之间的区别都有哪些？
     答案：
   （1）delete语句后面可以使用where子句，从而实现删除部分数据。而truncate table语句只能删除所有数据。
@@ -436,8 +436,8 @@ where sex = '男' and year(birthday) not in (
 
 
 
-# 8.8  本章练习
-## 一、单选题
+## 8.8  本章练习
+### 一、单选题
   1. 在MySQL中，可以使用（  B ）语句创建一个数据库。
     ```A. create table                              B. create database
     C. create procedure                          D. create view
@@ -462,7 +462,7 @@ where sex = '男' and year(birthday) not in (
     B. display create table product;
     C. show table create product;
     D. show product;
-## 二、编程题
+### 二、编程题
   1. 下面是一个名为vegetable表的结构（如表8-4所示），请写出创建该表的SQL语句（不需要包括列的注释）。
 表8-4  vegetable的结构
 列名	类型	允许NULL	是否主键	注释
@@ -484,8 +484,8 @@ create table vegetable
     rdate     date
 );
 
-# 9.11  本章练习
-## 一、单选题
+## 9.11  本章练习
+### 一、单选题
   1. 如果想要为某一列添加主键，应该使用（  ```A ）关键字。
     ```A. primary key                         B. unique
     C. foreign key                          D. default
@@ -538,7 +538,7 @@ create table vegetable
     B. 只能删除B之后，才能删除A
     C. 删除A和B的顺序可以任意
     D. 以上说法都不对
-## 二、问答题
+### 二、问答题
   1. 请列举一下列的属性（约束）都有哪些？（至少5个）
     答案：
     主键、外键、唯一键、默认值、自动递增、条件检查、非空。
@@ -547,7 +547,7 @@ create table vegetable
   （1）主键的值不能为NULL，而唯一键的值可以为NULL。
   （2）一个表只能有一个主键，但可以有多个唯一键。
   （3）主键可以作为外键，但是唯一键不可以。
-## 三、编程题
+### 三、编程题
   1. 请使用SQL语句创建一个学生表student，该表包含5列，其中列名、类型、注释如表9-2所示。
 列的情况
 列名	类型	注释
@@ -573,8 +573,8 @@ create table student
 
 
 
-# 10.7  本章练习
-## 一、单选题
+## 10.7  本章练习
+### 一、单选题
   1. 对于多表连接来说，MySQL默认的连接方式是（  ```A ）。
     ```A. 内连接                             B. 自连接
     C. 左外连接                           D. 右外连接
@@ -591,7 +591,7 @@ create table student
     D. 外连接查询是以“列”为单位进行操作的
     分析：
     联合查询（union）是以“行”为单位进行操作的，而内连接和外连接都是以“列”为单位进行操作的。
-## 二、问答题
+### 二、问答题
   1. 请简单说一下表与表之间的关系有哪些？
     答案：
     一对一 、一对多（多对一）、多对多。
@@ -604,8 +604,8 @@ create table student
 
 
 
-# 11.6  本章练习
-## 一、单选题
+## 11.6  本章练习
+### 一、单选题
   1. 在MySQL中，用于创建视图的语句是（  C ）。
     ```A. create table                               B. create index
     C. create view                               D. create database
@@ -638,7 +638,7 @@ create table student
     A中，通过视图，可以插入数据、修改数据和删除数据。
     C中，查询视图和查询表的语句是一样的，都是使用select语句。
     D中，视图并不保存数据，它保存的是一条select语句。
-## 二、简答题
+### 二、简答题
   1. 请简单说一下视图和表之间有什么区别和联系，请分别说一下？
   答案：
   （1）区别：表保存的是真实数据，而视图保存的是一条select语句。
@@ -649,7 +649,7 @@ create table student
   （2）提高重用性：如果一个查询操作经常使用，并且select语句本身又长又复杂（比如使用很多聚合函数、关联其他表等），此时我们可以将其保存成一个视图。
   （3）提高安全性：对于一些不能被修改的重要的字段，如果我们不希望被用户误操作，此时可以使用视图只暴露一些不重要的字段，而把那些重要字段给隐藏起来。
 
-## 三、编程题
+### 三、编程题
   1. 请基于本书中的product表，写出每一个问题对应的SQL语句。
   （1）创建一个包含name、price、date这3列的视图，并命名为product_v。
   （2）查看product_v的创建代码。
@@ -667,8 +667,8 @@ as select name, price from product;
   （4）
 drop view product_v;
 
-# 12.5  本章练习
-## 一、单选题
+## 12.5  本章练习
+### 一、单选题
   1. 在MySQL中，不能对视图执行的操作是（  D ）。
     ```A. select                                B. insert
     C. update                               D. create index
@@ -686,8 +686,8 @@ drop view product_v;
 
 
 
-# 13.6  本章练习
-## 一、单选题
+## 13.6  本章练习
+### 一、单选题
   1. 如果想要调用一个名为pr的存储过程，我们应该使用（  B ）。
     ```A. pr();                                B. call pr();
     C. do pr();                             D. show pr();
@@ -712,14 +712,14 @@ drop view product_v;
     A中，一个表上可以创建多个触发器。
     C中，用户是不可以调用触发器的，触发器是由insert、delete、update这几种操作触发的。
     D中，MySQL不存在alter trigger语句。如果想要修改一个触发器，我们应该先删除该触发器，然后再创建一个同名的触发器。
-## 二、简答题
+### 二、简答题
   1. 简单说一下存储过程和存储函数之间有什么区别？
     答案：
   （1）用途不同：存储过程是一系列SQL语句的集合，它一般涉及表的各种操作。而存储函数一般不涉及表的操作，而是完成特定的功能（比如将字符串转换为小写）。
   （2）参数不同：存储过程的参数类型有int、out、inout这3种，而存储函数的参数类型类似于in参数。
   （3）返回值不同：存储过程可以不返回值，也可以输出一个或多个结果集（注意这是集合）。而存储函数有且只能返回一个值（这是标量值，而不能是集合）。
   （4）调用方式不同：存储过程需要使用call关键字来调用，而存储函数一般在SQL语句中调用（类似于内置函数）。
-## 三、编程题
+### 三、编程题
   1. 定义一个不带参数存储过程pr，查询product表中不同type商品的平均售价，并且调用执行该存储过程。
     答案：
 -- 定义
@@ -748,8 +748,8 @@ end;
 call pr('衣服');
 
 
-# 14.2  本章练习
-## 一、单选题
+## 14.2  本章练习
+### 一、单选题
   1. 在MySQL中，可以使用（  B ）关键字来读取一个游标。
     ```A. select                                B. fetch
     C. get                                  D. read
@@ -768,27 +768,27 @@ call pr('衣服');
     分析：
     声明游标（创建游标）的语法如下：
 declare 游标名cursor for 查询语句;
-## 二、问答题
+### 二、问答题
   1. 请简单说一下游标的作用是什么？
     答案：
     游标可以使得我们对查询结果集进行遍历，也就是一行一行地处理数据，以便对每一条数据进行相应的操作。
 
-# 15.3  本章练习
-## 一、单选题
+## 15.3  本章练习
+### 一、单选题
   1. 在MySQL中，我们可以使用（  B ）关键字来回滚一个事务。
     ```A. commit                           B. rollback
     C. submit                            D. back
   2. 下面不属于事务的属性的是（  D ）。
     ```A. 原子性                           B. 一致性
     C. 隔离性                           D. 暂时性
-## 二、简答题
+### 二、简答题
   1. 请简单说一下事务的属性都有哪些？
     答案：
     原子性、一致性、隔离性、持久性。
 
 
-# 16.4  本章练习
-## 一、单选题
+## 16.4  本章练习
+### 一、单选题
 1. 在MySQL中，预设的拥有最高权限的用户名是（  D ）。
  ```A. administrator                              B. manager
  C. user                                      D. root
@@ -813,8 +813,8 @@ declare 游标名cursor for 查询语句;
  D中，可以授予各种权限，而不只限于查询、插入、更新、删除这4种。
 
 
-# 17.5  本章练习
-## 一、单选题
+## 17.5  本章练习
+### 一、单选题
 1. 下面关于数据库备份的说法中，不正确的是（  C ）。
     ```A. 库的备份，会将该库所有的表都一起备份了
     B. 为了保证数据的安全性，我们需要经常对数据库进行备份
@@ -823,8 +823,8 @@ declare 游标名cursor for 查询语句;
     分析：
     C中，数据库的备份和还原，有2种方式：①软件的方式（Navicat for MySQL）；②SQL代码方式。
 
-# 18.4  本章练习
-## 一、单选题
+## 18.4  本章练习
+### 一、单选题
   1. 下面不属于MySQL系统数据库的是（  C ）。
     ```A. mysql                                B. information_schema
     C. master                               D. performance_schema
