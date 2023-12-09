@@ -1,4 +1,4 @@
-MySQL
+SQL
 ===============
 
 .. toctree::

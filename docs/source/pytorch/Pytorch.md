@@ -30,7 +30,7 @@ import torch.nn as nn
 ```
 - kernel_size=3,stride=1,padding=1
 
-> 尺寸减半,dilation=1
+> 尺寸减半,dilation=1   
 - 5,2,2
 - 7,2,3
 > 尺寸减半,dilation=2

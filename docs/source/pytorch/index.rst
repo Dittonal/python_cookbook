@@ -6,3 +6,4 @@ Pytorch
    :caption: Contents:
 
    Pytorch
+   Model
