@@ -29,7 +29,7 @@ import torch.nn as nn
 不会改变尺寸,dilation=1
 ```
 - kernel_size=3,stride=1,padding=1
-
+- 1,1,0
 > 尺寸减半,dilation=1   
 - 5,2,2
 - 7,2,3
