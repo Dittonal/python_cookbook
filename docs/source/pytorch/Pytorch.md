@@ -25,7 +25,9 @@ import torch.nn as nn
 - 此时k=dilation*(kernel_size-1) + 1
 
 #### 常用的参数设置
-> 不会改变尺寸,dilation=1
+```{warning}
+不会改变尺寸,dilation=1
+```
 - kernel_size=3,stride=1,padding=1
 
 > 尺寸减半,dilation=1
