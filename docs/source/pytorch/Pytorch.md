@@ -30,7 +30,14 @@ import torch.nn as nn
 ```
 - kernel_size=3,stride=1,padding=1
 - 1,1,0
-> 尺寸减半,dilation=1   
+```{warning}
+不会改变尺寸,dilation=6,参考自deeplab，不同卷积率并行提取特征
+```
+- 3,1,6
+- 3,1,12,12
+- 3,1,18,18
+
+> 尺寸减半,dilation=1
 - 5,2,2
 - 7,2,3
 > 尺寸减半,dilation=2
