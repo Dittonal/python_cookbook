@@ -36,6 +36,11 @@ import torch.nn as nn
 - 3,1,6
 - 3,1,12,12
 - 3,1,18,18
+```{warning}
+不会改变尺寸,只要dilation=padding,且k和s分别是3,1；
+```
+- 3,1,2,2
+- 3,1,3,3
 
 > 尺寸减半,dilation=1
 - 5,2,2
