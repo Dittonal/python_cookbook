@@ -277,7 +277,10 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
 
    ![image-20221012192303607](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/12/20221012192303.png)
 
-
+8. 重启linux出现错误
+- RROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+- 重启服务，sudo /etc/init.d/mysql restart
+- 
 
 
 
