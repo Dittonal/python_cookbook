@@ -8,3 +8,4 @@
    BookOfPython
    PythonQ&A
    PythonProject
+   Matplotlib
