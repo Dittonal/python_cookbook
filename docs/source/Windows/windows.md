@@ -60,3 +60,15 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox" /v DisableAppUpda
 - 效果，更新按钮不可用
 
 ![](./FireFox_update.png)
+# powershell 设置别名 alias
+- Get-Variable Profile
+- New-Item -Type file -Force $profile
+## 打开 profile文件所在路径，例如` E:\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+- 输入命令
+``` python
+function ccc { conda activate py37 }
+function pp { pip list }
+function pi { pip install }
+function pf { pip freeze > r.txt }
+```
+  
